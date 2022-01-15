@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dance Animation</title>
+    <script type="module" src="./DanceAnimation.js"></script>
+    <script type="text/javascript" src="../libs/music-tempo.min.js"></script>
+    <script src="../libs/simplex-noise.min.js"></script>
+    <link id="csslink" rel="stylesheet" href="./DanceAnimation.css">
+  </head>
+  <body>
+    <div id="container">
+        <label for="thefile" class="file">
+          Choose an audio file
+          <input type="file" id="thefile" accept="audio/*" />
+        </label>
+        <div id="bpm">
+          <p>Tempo: <a id="tempo"></a></p>
+        </div>
+        <audio id="audio" controls> </audio>
+        <div id="out"></div>
+
+      </div>
+
+  </body>
+
+
+
+</html>
